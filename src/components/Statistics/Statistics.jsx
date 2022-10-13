@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 export const Statistics = ({
@@ -18,7 +19,7 @@ export const Statistics = ({
   );
 };
 
-Statistics.PropTypes = {
+Statistics.propTypes = {
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,

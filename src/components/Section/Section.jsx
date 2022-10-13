@@ -9,6 +9,6 @@ export const Section = ({ title, children }) => {
   );
 };
 
-Section.PropTypes = {
+Section.propTypes = {
   title: PropTypes.string.isRequired,
 };
